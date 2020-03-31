@@ -1,6 +1,6 @@
 import React from "react";
 import ProductRecommendationListItem from "../ProductRecommendationListItem";
-import { getAll, ProductDisplayCount } from "../../services/ProductService";
+import { getAll, ProductDisplayCount, search } from "../../services/ProductService";
 import { Text } from "@sitecore-jss/sitecore-jss-react";
 import ProductItemLoader from "../ProductItemLoader";
 import withSizes from "react-sizes";
@@ -12,9 +12,18 @@ class ProductRecommendationList extends React.Component {
   };
 
   componentDidMount() {
-    getAll()
+    /*getAll()
       .then(response => {
         this.setState({ products: response.data });
+        this.setState({ loading: false });
+      })
+      .catch(error => {
+        console.error(error);
+      });*/
+
+    search("*green*", 0, 6)
+      .then(response => {
+        this.setState({ products: response.data.ChildProducts });
         this.setState({ loading: false });
       })
       .catch(error => {
@@ -35,7 +44,7 @@ class ProductRecommendationList extends React.Component {
       }
     } else {
       productItems = products.map((productData, index) => (
-        <ProductRecommendationListItem key={index} {...productData} />
+        <ProductRecommendationListItem key={index} fields={productData} />
       ));
     }
 

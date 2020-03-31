@@ -3,8 +3,8 @@ fields:
   pageTitle: Home
 placeholders:
   hf-nav:
-  - componentName: Navigation
-  hf-body:
+  - componentName: Navigation  
+  hf-body:  
   - componentName: HomeContainer
     placeholders:
       hf-home:

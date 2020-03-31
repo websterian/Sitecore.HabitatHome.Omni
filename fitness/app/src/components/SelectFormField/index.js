@@ -30,7 +30,7 @@ class SelectFormField extends Component {
             {defaultValue}
           </option>
           {fields.options.map((option, index) => {
-            const value = getRawFieldValue(option.fields.Name);
+            const value = getRawFieldValue(option.fields.Name, option.fields.name.value);
             return (
               <option key={index} value={value}>
                 {value}

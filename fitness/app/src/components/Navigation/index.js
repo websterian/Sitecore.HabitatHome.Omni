@@ -4,6 +4,7 @@ import { withRouter } from "react-router";
 import { translate } from "react-i18next";
 import { flush } from "../../services/SessionService";
 import logo from "../../assets/img/logo.svg";
+import StoreSelector from "../StoreSelector";
 
 import {
   Collapse,
@@ -50,9 +51,15 @@ class Navigation extends React.Component {
     const identification =
       context && context.contact ? context.contact.identification : null;
 
+   /* const  fieldsStoreLocator = {
+        heading: "hello"
+      };*/
+
     return (
       <div className="nav-container">
+
         <Navbar light>
+          
           <NavbarBrand tag={Link} to={"/"}>
             <img src={logo} alt={"habitat-fitness"} />
           </NavbarBrand>

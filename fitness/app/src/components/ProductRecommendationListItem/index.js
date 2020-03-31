@@ -5,21 +5,26 @@ const ProductRecommendationListItem = ({ fields }) => {
   return (
     <div className="productRecommendationList-item">
       <div className="productRecommendationList-item-inner">
-        <Link field={fields.link} className="product-link">
           <div className="productRecommendationList-item-image">
-            <Image field={fields.image} style={null} />
+            <img src={fields.SummaryImageUrl}></img>
           </div>
-          <div className="productRecommendationList-item-body">
-            <Text
-              field={fields.title}
-              tag="h5"
-              className="productRecommendationList-item-title"
-            />
+          <div className="productRecommendationList-item-body">           
+            <h5 className="productRecommendationList-item-title">
+              {fields.DisplayName}
+            </h5>
+            <p>
+              {fields.ProductId}
+            </p>
             <div className="productRecommendationList-item-desc">
-              <RichText field={fields.description} tag="p" />
+              <p>{fields.Description}</p>
             </div>
+            <h5 className="productRecommendationList-item-title">
+              {fields.ListPriceWithCurrency}
+            </h5>
+            <h4 className="productRecommendationList-item-title">
+              {fields.StockStatusLabel}
+            </h4>
           </div>
-        </Link>
       </div>
     </div>
   );

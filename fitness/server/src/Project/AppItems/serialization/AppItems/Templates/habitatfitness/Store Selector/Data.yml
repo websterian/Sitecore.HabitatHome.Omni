@@ -1,0 +1,14 @@
+﻿---
+ID: "0b700622-fa10-4524-848c-ab8af3d6d28e"
+Parent: "0b9757bc-cacc-4ec9-81bb-9a82d5489e71"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/habitatfitness/Store Selector/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200324T191256Z

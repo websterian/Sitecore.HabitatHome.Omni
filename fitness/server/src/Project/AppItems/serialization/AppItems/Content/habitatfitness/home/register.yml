@@ -95,8 +95,15 @@ Languages:
               s:par=""
               s:ph="/hf-body/hf-registration-wizard-{3CEFE02D-F152-51CD-9A2B-B2F80959BBB6}-0/hf-createaccount-form-{1BAB19C0-4403-5655-8E00-A2D7589B8FF4}-0/hf-createaccount-form-group-{1934778E-89A0-5AB9-96E7-D9813361434C}-0" />
             <r
-              uid="{56B8011F-B0B3-5BD2-A63C-B33826922CD8}"
+              uid="{EAB02E48-604D-4546-9D37-379261CF9C7F}"
               p:after="r[@uid='{ECA83DB0-34D4-5579-9207-A6172192CADE}']"
+              s:ds="{415B19E3-1639-4F6A-B8FD-B60AEEF6BD76}"
+              s:id="{841E8E2B-8BCD-53C6-9C41-2CF5F8BD4E3A}"
+              s:par=""
+              s:ph="/hf-body/hf-registration-wizard-{3CEFE02D-F152-51CD-9A2B-B2F80959BBB6}-0/hf-createaccount-form-{1BAB19C0-4403-5655-8E00-A2D7589B8FF4}-0/hf-createaccount-form-group-{1934778E-89A0-5AB9-96E7-D9813361434C}-0" />
+            <r
+              uid="{56B8011F-B0B3-5BD2-A63C-B33826922CD8}"
+              p:after="r[@uid='{EAB02E48-604D-4546-9D37-379261CF9C7F}']"
               s:rname="SportsPickerStep"
               s:ds="{89D5DD57-6E02-5698-915E-4D875760EBEC}"
               s:id="{22E9812C-F7A7-5B26-B399-C2A5CC171182}"

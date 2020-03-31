@@ -1,8 +1,8 @@
 ﻿---
-ID: "dddf7944-90ff-5d1e-bbcf-a7187cf23735"
+ID: "415b19e3-1639-4f6a-b8fd-b60aeef6bd76"
 Parent: "6374a178-df61-5ad2-a20d-b0258cf3d7f5"
-Template: "9bfea57c-783a-4695-9ccd-5c7577482d6a"
-Path: "/sitecore/content/habitatfitness/Components/forms/gender-selector"
+Template: "785bb67f-dd17-488e-951b-4d3951dfca0d"
+Path: "/sitecore/content/habitatfitness/Components/forms/store-selector"
 DB: master
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
@@ -19,17 +19,13 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
-    - ID: "62e8e955-cf00-420b-94e5-196c6a1c8d4d"
+    - ID: "48e8a0ab-4144-4370-aba1-a52f67a2fde4"
       Hint: options
       Type: Multilist
-      Value: |
-        {E3E83946-554D-4BF8-A5F4-8A80F84247F1}
-        {9627F625-DA43-42EA-8E80-D5B74914467C}
-        {B7574236-2C5B-4B52-BC15-9AA739158C8F}
-        {99BF4FDF-5AEE-433C-92FF-0C6649B2E6B8}
+      Value: "{52BAEF52-B8EC-4159-B6B4-06AB1349DD4A}"
     - ID: "cf45aba9-aa4e-5df2-8cab-3530af93176a"
       Hint: selectTitle
-      Value: Your gender
+      Value: Home store
     - ID: "d04b729a-39ab-5129-b4f8-2a64717e2e34"
       Hint: selectName
-      Value: gender
+      Value: store

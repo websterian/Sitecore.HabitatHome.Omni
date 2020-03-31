@@ -1,0 +1,24 @@
+﻿---
+ID: "5ffc76a1-a431-4cfd-bb65-e3155bdc6987"
+Parent: "8836bc71-a1d6-4530-a4b4-8d67300cc6f7"
+Template: "0b9757bc-cacc-4ec9-81bb-9a82d5489e71"
+Path: /sitecore/content/habitatfitness/Components/StoreSelector/Store Selector
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200324T191512Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "73c550e7-84d4-438e-bea1-4a44dde11264"
+      Hint: storeSelectorTitle
+      Value: "Select your store:"
+    - ID: "f440df91-0c9f-40fb-8f08-ea1be8b9e225"
+      Hint: storeSelectorName
+      Value: storeSelector
